@@ -1,4 +1,4 @@
-# Linear Triangle Systems
+# LTS-poset-dimension
 
 This project generates all **maximal linear triangle systems** over a given vertex set, computes their **inclusion posets**, and determines their **order dimensions** using a SAT-based method.
 
@@ -17,5 +17,6 @@ This project generates all **maximal linear triangle systems** over a given vert
   This provides the `sat_dimension` function used to compute poset dimensions via SAT solving.
 - **[Kissat SAT Solver](https://github.com/arminbiere/kissat)**  
   This is required by `dimension.py`. Make sure `kissat` is available in your system’s PATH.
+
 
 
